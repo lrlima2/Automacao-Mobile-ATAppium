@@ -9,8 +9,8 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		plugin = {"pretty"},
-		features = "/home/leonardo/eclipse-workspace/CTAppium/src/test/resources/features",
-		tags = "@OpcaoBemEscondida",
+		features = "/home/leonardo/eclipse-workspace/Automacao-Mobile-ATAppium/CTAppium/src/test/resources/features",
+		tags = "",
 		glue = "stepsDefinitions",
 		snippets = SnippetType.CAMELCASE,
 		monochrome = true,
